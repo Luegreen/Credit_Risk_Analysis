@@ -1,7 +1,10 @@
 
 # Credit_Risk_Analysis
 
-## Overview of the analysis: Explain the purpose of this analysis.
+## Overview of the analysis:
+Using machine learning to solve the question of credit card risk, I used unbalanced classification models (unbalanced because good loans easily outnumber risky loans). Using two libraries, imalanced-learn and scikit-learn I built and evaluated models using resampling. 
+
+The data set was the credit card credit dataset from LendingClub, a peer-to-peer lending services company. I oversampled the data with RandomOver Sampler and SMOTE algorithms, underssampled using ClusterCentroids, and used a combination of over- and undersampling using the SMOTEENN algorithm, then compared two machine learning models that reduce bias; BalancedRandomForestClassifier and EasyEnsembleClassifier. 
 
 ## Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
